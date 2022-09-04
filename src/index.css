@@ -1,0 +1,44 @@
+.container {
+    position: relative;
+    width: 1440px;
+    height: 900px;
+    background: #131313;
+}
+
+.chart {
+    position: absolute;
+    width: 884px;
+    height: 682px;
+    left: 232px;
+    top: 194px;
+    background: #212122;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.toggle-btn {
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    padding: 12px 15px;
+    border-radius: 3px;
+    background: rgb(64, 199, 129);
+    font-weight: 500;
+    box-shadow: 0 -3px rgb(53, 167, 110) inset;
+    transition: 0.2s;
+}
+
+.toggle-btn:hover {
+    background: rgb(53, 167, 110);
+}
+
+.toggle-btn:active {
+    background: rgb(33, 147, 90);
+    box-shadow: 0 3px rgb(33, 147, 90) inset;
+}
